@@ -1,0 +1,133 @@
+{% extends "base_generica.html" %}
+
+{% block content %}
+
+
+<div class="info-inicial">
+    {% load static %}
+    <div class="page-inicial-container" style="background-image: url('{% static "/images/si1.jpeg" %}');background-repeat: no-repeat; background-size: cover;">
+        <div class="conteudo">
+            <div class="titulo">
+                <br>
+                <br>
+            
+                
+            
+                <h2>ODONTO<br> SMILE</h2>
+               
+            </div><br>
+            <p class="txt">Seu sorriso com um preço <br>promocional tenha seu sorriso <br>bonito com a Odonto
+                 Smile</p>
+                <p class="cor">Para mais informaçôes confira o site:</p>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 
+    
+            <p class="minitexto">Agende sua consulta agora!</p>
+        </div>
+    </div>
+</div>
+<div>
+<div>
+   {% load static %}
+    <div class="barraimg" style="background-image: url({% static 'images/background.png' %});">
+        <br>
+        <br>
+
+    <h1 class="tu"><center>Clientes com motivos para sorrir!</h1></center>
+    <h2 class="nah"><center>Atendimento diferenciado, clínicas<br>modernas e tratamentos de última geração:
+        fazemos tudo pelo sorriso dos nossos clientes.</center></h2>
+        <br>
+        <div class="banner">.</div>
+        <div class="banner">.</div>
+    {% load static %}
+    <div  class="imagem7"><img class="imagn" src="{% static 'images/o.png' %}"></div> 
+    <br> 
+    <div  class="imagem8"><img class="imagn2" src="{% static 'images/sorriso.png' %}"></div> 
+   
+</div>
+
+</div>
+</div>
+
+                             <!--Informações pós logo-->
+
+<header>
+<div class="barra-cinza">
+    <div class="title">
+        <h1 class="titi"><center>POR QUE ESCOLHER A ODONTO SMILE?</center></h1>
+    </div>
+    <div class="items">
+
+
+
+
+
+
+
+
+        <div class="nao">
+            <span class="naooq">+9500</span>
+            <br>Consumidores <br> <center>atendidos</center>
+        </div>
+        <div class="sim">
+            <span class="large">+1000</span>
+            <br>Atendimentos <br> <center>por mês</center>
+        </div>
+        <div class="ok">
+            <span class="senhorr">+500</span>
+            <br>De consultas<br> <center>por mês</center>
+        </div>
+        <div class="ababa">
+            <span class="socorro">+2500</span>
+           <center>Visitas</center> <center>por mês</center>
+        </div>
+    </div>
+</div>
+</header>
+
+                     <!--Informações pós dados-->
+                            
+<div class="last-container">
+  <br>
+ 
+    <div class="textos-last-container">
+        <h1 class="prgf">Nossos Tratamentos:</h1>
+    
+        <p class="sigma">
+            Mais praticidade para você, com todas as especialidades<br>
+            em apenas um só lugar.Ir ao dentista<br>
+            para relaxar<br>
+            <br>
+            (além de cuidar do sorriso)parece algo surreal<br> 
+            mas é justamente isso que nossos pacientes <br>
+            experimentam ao chegar<br>
+            em nossaclínica.
+        </p>
+    </div>
+    
+    <div class="slider-container">
+        <button class="btn btn-prev" onclick="prevSlide()">&#10094;</button>
+        <div class="slider">
+        <div class="banner">
+                  
+        <div class="slide"><img src="{% static 'images/d1.png' %}" alt="Image 1"><center>implantes</center></div>
+        <div class="slide"><img src="{% static 'images/d2.png' %}" alt="Image 2"><center>ortodontia</center></div>
+        <div class="slide"><img src="{% static 'images/d3.png' %}" alt="Image 3"><center>próteses</center></div>
+        </div>
+        <button class="btn btn-next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+  
+
+           
+     
+</div>
+
+
+<div class="barra"><center class="cor">Odonto Smile</center></div>
+
+{% endblock %}
